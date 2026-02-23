@@ -1,0 +1,19 @@
+{
+  "name": "coding-agent",
+  "version": "1.0.0",
+  "description": "AI Coding Agent powered by Claude",
+  "main": "dist/agent.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/agent.js",
+    "dev": "ts-node agent.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
